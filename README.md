@@ -2,7 +2,7 @@
 
 This is an Elastic environment deployed in a Linux RHEL 9.6 OS
 Requuirements:
--
+-Have Docker installed
 Before begining run de following commands to create de folders for the environment:
 ```bash
 mkdir certs elasticdata elasticlogs backups
