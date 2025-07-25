@@ -5,6 +5,13 @@ This project sets up an Elastic Stack environment on a **Linux RHEL 9.6** system
 ## Requirements
 - Docker latest version installed  
 
+## Configure de vm.max_map_count
+Setting this configuration in your Linux environment is essential in order for the Elastic to run properly. To configure vm.max_map_count run the following commands:
+```bash
+sudo sysctl -w vm.max_map_count=262144
+sudo sysctl -p
+```
+
 ## Prepare Environment Folders
 
 Before running the stack, execute the following commands to create and configure the necessary directories:
