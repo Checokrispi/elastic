@@ -17,6 +17,11 @@ sudo sysctl -p
 Before running the stack, execute the following commands to create and configure the necessary directories:
 
 ```bash
+cd elasticconfig
+sudo chown root:root filebeat.yml
+sudo chmod 644 filebeat.yml
+cd ..
+
 mkdir certs elasticdata elasticlogs backups
 
 cd elasticdata
