@@ -1,0 +1,17 @@
+networks:
+  default:
+    name: elastic
+    external: true
+services:
+  webapp:
+    build:
+      context: app
+    container_name: webapp
+    volumes:
+      - "/var/lib/docker/containers:/var/lib/docker/containers:ro"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "/sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro"
+      - "/proc:/hostfs/proc:ro"
+      - "/:/hostfs:ro"
+    ports:
+      - 8000:8000

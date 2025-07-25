@@ -1,0 +1,5 @@
+cluster.name: "elastic-cluster"
+node.name: master
+network.host: 0.0.0.0
+node.roles: [ master, data ]
+path.repo: [ "/usr/share/elasticsearch/mount/backups" ]
