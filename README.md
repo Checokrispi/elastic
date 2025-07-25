@@ -14,7 +14,7 @@ sudo sysctl -p
 
 ## Prepare Environment Folders
 
-Before running the stack, execute the following commands to create and configure the necessary directories:
+Before running the stack, make sure that you are inside the folder /elastic were the files were downloaded. Then execute the following commands to create and configure the necessary directories:
 
 ```bash
 cd elasticconfig
