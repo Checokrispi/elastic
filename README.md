@@ -3,10 +3,7 @@
 This project sets up an Elastic Stack environment on a **Linux RHEL 9.6** system.
 
 ## Requirements
-
-| Software   | Version | Note                |
-|------------|---------|---------------------|
-| Docker     | Latest  | Must be installed  |
+| Docker Must be installed  
 
 ## Prepare Environment Folders
 
