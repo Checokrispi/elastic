@@ -1,5 +1,8 @@
-# elastic
+# Elastic Stack environment
 
+This is an Elastic environment deployed in a Linux RHEL 9.6 OS
+Requuirements:
+-
 Before begining run de following commands to create de folders for the environment:
 ```bash
 mkdir certs elasticdata elasticlogs backups
@@ -17,5 +20,6 @@ chmod g+rwx backups certs
 sudo chgrp 0 backups certs
 ```
 
+In order to run the environment run 
 
 
